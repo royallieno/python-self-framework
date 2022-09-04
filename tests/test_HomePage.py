@@ -44,6 +44,6 @@ class TestHomePage(BaseClass):
     # Getting data from a saperate file
 
     # @pytest.fixture(params=HomePageData.test_HomePage_data)
-    @pytest.fixture(params=HomePageData.getTestData("TestCase5"))
+    @pytest.fixture(params=HomePageData.getTestData("TestCase7"))
     def getData(self, request):
         return request.param
